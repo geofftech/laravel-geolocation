@@ -13,5 +13,10 @@
       "email": "geoff@geofftech.com"
     }
   ],
-  "require": {}
+  "require": {
+    "php": "^8.2",
+    "stevebauman/location": "^7.2",
+    "illuminate/database": "^11.1",
+    "illuminate/support": "^11.1"
+  }
 }
