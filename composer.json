@@ -1,0 +1,17 @@
+{
+  "name": "geofftech/laravel-geolocation",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GeoffTech\\LaravelGeolocation\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Geoff",
+      "email": "geoff@geofftech.com"
+    }
+  ],
+  "require": {}
+}
