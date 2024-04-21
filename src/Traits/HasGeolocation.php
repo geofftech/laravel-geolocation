@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 trait HasGeolocation
 {
 
-  public function scopeWithinRadius(Builder $query, int $km, float $latitude, float $longitude): void
+  public function scopeWhereWithinRadius(Builder $query, int $km, float $latitude, float $longitude): void
   {
 
     $degrees = $km * 0.0117;
@@ -19,12 +19,12 @@ trait HasGeolocation
 
   }
 
-  public function scopeWithinRadiusOfMe(Builder $query, int $km): void
+  public function scopeWhereWithinRadiusOfMe(Builder $query, int $km): void
   {
 
     [$latitude, $longitude] = GeolocationService::get();
 
-    $this->scopeWithinRadius($query, $km, $latitude, $longitude);
+    $this->scopeWhereWithinRadius($query, $km, $latitude, $longitude);
 
   }
 
