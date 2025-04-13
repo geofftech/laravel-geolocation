@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "559a89b7451909338c154e035106ff7e",
+    "content-hash": "4877d91b48b89593f0cfab1b569b03bf",
     "packages": [
         {
             "name": "brick/math",
@@ -687,31 +687,32 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "f2f537dfb2a142791d37478f34c920b44a45cea9"
+                "reference": "c4b1d5b0237f036821ec05a35073bd497f28cc75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/f2f537dfb2a142791d37478f34c920b44a45cea9",
-                "reference": "f2f537dfb2a142791d37478f34c920b44a45cea9",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/c4b1d5b0237f036821ec05a35073bd497f28cc75",
+                "reference": "c4b1d5b0237f036821ec05a35073bd497f28cc75",
                 "shasum": ""
             },
             "require": {
-                "illuminate/conditionable": "^11.0",
-                "illuminate/contracts": "^11.0",
-                "illuminate/macroable": "^11.0",
+                "illuminate/conditionable": "^12.0",
+                "illuminate/contracts": "^12.0",
+                "illuminate/macroable": "^12.0",
                 "php": "^8.2"
             },
             "suggest": {
-                "symfony/var-dumper": "Required to use the dump method (^7.0)."
+                "illuminate/http": "Required to convert collections to API resources (^12.0).",
+                "symfony/var-dumper": "Required to use the dump method (^7.2)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -739,29 +740,29 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-03-06T14:02:47+00:00"
+            "time": "2025-04-08T19:48:08+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
-                "reference": "911df1bda950a3b799cf80671764e34eede131c6"
+                "reference": "251ef166c6ee46cc8a141403253f83fe7ee50507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/911df1bda950a3b799cf80671764e34eede131c6",
-                "reference": "911df1bda950a3b799cf80671764e34eede131c6",
+                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/251ef166c6ee46cc8a141403253f83fe7ee50507",
+                "reference": "251ef166c6ee46cc8a141403253f83fe7ee50507",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.0.2"
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -785,24 +786,24 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-11-21T16:28:56+00:00"
+            "time": "2025-03-19T20:10:05+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "4dcc3fcbab92e734fc0c08d9cfd97f5a1aef18ca"
+                "reference": "cdd99204b29acf795a02f778542df5a5244361fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/4dcc3fcbab92e734fc0c08d9cfd97f5a1aef18ca",
-                "reference": "4dcc3fcbab92e734fc0c08d9cfd97f5a1aef18ca",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/cdd99204b29acf795a02f778542df5a5244361fd",
+                "reference": "cdd99204b29acf795a02f778542df5a5244361fd",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^11.0",
+                "illuminate/contracts": "^12.0",
                 "php": "^8.2",
                 "psr/container": "^1.1.1|^2.0.1"
             },
@@ -812,7 +813,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -836,20 +837,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-02-10T14:20:57+00:00"
+            "time": "2025-03-22T17:41:27+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "b350a3cd8450846325cb49e1cbc1293598b18898"
+                "reference": "bbaec083da240396f2186f4c3a9952da207f28a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b350a3cd8450846325cb49e1cbc1293598b18898",
-                "reference": "b350a3cd8450846325cb49e1cbc1293598b18898",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/bbaec083da240396f2186f4c3a9952da207f28a0",
+                "reference": "bbaec083da240396f2186f4c3a9952da207f28a0",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +861,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -884,46 +885,47 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-02-10T14:20:57+00:00"
+            "time": "2025-03-19T20:10:05+00:00"
         },
         {
             "name": "illuminate/database",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "a63391e43a6d38beb40fa21fc020d16c9b5352ea"
+                "reference": "962d53fe49545f109cbd59069b65f95e0d52cb4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/a63391e43a6d38beb40fa21fc020d16c9b5352ea",
-                "reference": "a63391e43a6d38beb40fa21fc020d16c9b5352ea",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/962d53fe49545f109cbd59069b65f95e0d52cb4c",
+                "reference": "962d53fe49545f109cbd59069b65f95e0d52cb4c",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.9.3|^0.10.2|^0.11|^0.12",
+                "brick/math": "^0.11|^0.12",
                 "ext-pdo": "*",
-                "illuminate/collections": "^11.0",
-                "illuminate/container": "^11.0",
-                "illuminate/contracts": "^11.0",
-                "illuminate/macroable": "^11.0",
-                "illuminate/support": "^11.0",
+                "illuminate/collections": "^12.0",
+                "illuminate/container": "^12.0",
+                "illuminate/contracts": "^12.0",
+                "illuminate/macroable": "^12.0",
+                "illuminate/support": "^12.0",
                 "laravel/serializable-closure": "^1.3|^2.0",
                 "php": "^8.2"
             },
             "suggest": {
                 "ext-filter": "Required to use the Postgres database driver.",
                 "fakerphp/faker": "Required to use the eloquent factory builder (^1.24).",
-                "illuminate/console": "Required to use the database commands (^11.0).",
-                "illuminate/events": "Required to use the observers with Eloquent (^11.0).",
-                "illuminate/filesystem": "Required to use the migrations (^11.0).",
-                "illuminate/pagination": "Required to paginate the result set (^11.0).",
-                "symfony/finder": "Required to use Eloquent model factories (^7.0)."
+                "illuminate/console": "Required to use the database commands (^12.0).",
+                "illuminate/events": "Required to use the observers with Eloquent (^12.0).",
+                "illuminate/filesystem": "Required to use the migrations (^12.0).",
+                "illuminate/http": "Required to convert Eloquent models to API resources (^12.0).",
+                "illuminate/pagination": "Required to paginate the result set (^12.0).",
+                "symfony/finder": "Required to use Eloquent model factories (^7.2)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -953,20 +955,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-03-12T14:13:54+00:00"
+            "time": "2025-04-08T18:31:21+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
-                "reference": "e1cb9e51b9ed5d3c9bc1ab431d0a52fe42a990ed"
+                "reference": "e862e5648ee34004fa56046b746f490dfa86c613"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/macroable/zipball/e1cb9e51b9ed5d3c9bc1ab431d0a52fe42a990ed",
-                "reference": "e1cb9e51b9ed5d3c9bc1ab431d0a52fe42a990ed",
+                "url": "https://api.github.com/repos/illuminate/macroable/zipball/e862e5648ee34004fa56046b746f490dfa86c613",
+                "reference": "e862e5648ee34004fa56046b746f490dfa86c613",
                 "shasum": ""
             },
             "require": {
@@ -975,7 +977,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -999,20 +1001,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-06-28T20:10:30+00:00"
+            "time": "2024-07-23T16:31:01+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v11.44.2",
+            "version": "v12.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "d86d42ad0c75a020e0e4a7c734e9424ca86811cc"
+                "reference": "63ee3afd919ed4bdb3d71032f147abc8214f0be9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/d86d42ad0c75a020e0e4a7c734e9424ca86811cc",
-                "reference": "d86d42ad0c75a020e0e4a7c734e9424ca86811cc",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/63ee3afd919ed4bdb3d71032f147abc8214f0be9",
+                "reference": "63ee3afd919ed4bdb3d71032f147abc8214f0be9",
                 "shasum": ""
             },
             "require": {
@@ -1020,11 +1022,11 @@
                 "ext-ctype": "*",
                 "ext-filter": "*",
                 "ext-mbstring": "*",
-                "illuminate/collections": "^11.0",
-                "illuminate/conditionable": "^11.0",
-                "illuminate/contracts": "^11.0",
-                "illuminate/macroable": "^11.0",
-                "nesbot/carbon": "^2.72.6|^3.8.4",
+                "illuminate/collections": "^12.0",
+                "illuminate/conditionable": "^12.0",
+                "illuminate/contracts": "^12.0",
+                "illuminate/macroable": "^12.0",
+                "nesbot/carbon": "^3.8.4",
                 "php": "^8.2",
                 "voku/portable-ascii": "^2.0.2"
             },
@@ -1035,20 +1037,20 @@
                 "spatie/once": "*"
             },
             "suggest": {
-                "illuminate/filesystem": "Required to use the Composer class (^11.0).",
+                "illuminate/filesystem": "Required to use the Composer class (^12.0).",
                 "laravel/serializable-closure": "Required to use the once function (^1.3|^2.0).",
                 "league/commonmark": "Required to use Str::markdown() and Stringable::markdown() (^2.6).",
                 "league/uri": "Required to use the Uri class (^7.5.1).",
                 "ramsey/uuid": "Required to use Str::uuid() (^4.7).",
-                "symfony/process": "Required to use the Composer class (^7.0).",
-                "symfony/uid": "Required to use Str::ulid() (^7.0).",
-                "symfony/var-dumper": "Required to use the dd function (^7.0).",
+                "symfony/process": "Required to use the Composer class (^7.2).",
+                "symfony/uid": "Required to use Str::ulid() (^7.2).",
+                "symfony/var-dumper": "Required to use the dd function (^7.2).",
                 "vlucas/phpdotenv": "Required to use the Env class and env helper (^5.6.1)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "11.x-dev"
+                    "dev-master": "12.x-dev"
                 }
             },
             "autoload": {
@@ -1076,7 +1078,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-02-23T14:20:22+00:00"
+            "time": "2025-04-08T19:16:14+00:00"
         },
         {
             "name": "laravel/serializable-closure",
