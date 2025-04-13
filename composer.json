@@ -2,6 +2,15 @@
   "name": "geofftech/laravel-geolocation",
   "type": "library",
   "license": "MIT",
+  "require": {
+    "php": "*",
+    "stevebauman/location": "^7.5",
+    "illuminate/database": "^11.44",
+    "illuminate/support": "^11.33"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.21"
+  },
   "autoload": {
     "psr-4": {
       "GeoffTech\\LaravelGeolocation\\": "src/"
@@ -12,11 +21,5 @@
       "name": "Geoff",
       "email": "geoff@geofftech.com"
     }
-  ],
-  "require": {
-    "php": "^8.2",
-    "stevebauman/location": "^7.2",
-    "illuminate/database": "^11.1",
-    "illuminate/support": "^11.1"
-  }
+  ]
 }
